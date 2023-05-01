@@ -1,6 +1,42 @@
-body
- {
-    margin: 0;
-    padding: 0;
-    background: #fff; text-align:center;
+body {
+    background-color: #D0D41F ;
+    
 }
+/*ID SELECTOR*/
+#git_header {
+    color: #1F9FD4;
+}
+/*CLASS SELECTOR*/
+.first_text {
+    color:royalblue;
+}
+header h1 {
+    font-size: 1000%;
+}
+header h2 {
+    font-size: 900%;
+}
+header h3 {
+    font-size: 900%;
+    font: italic 400 4em times roman;
+    font-weight: bolder;
+    color: darkgreen;
+}
+ul {
+    color: #B41FD4;
+    font-size: 400%;
+    line-height: 2em;
+    }
+ol {
+    color: #FE0505;
+    font-size: 400%;
+    line-height: 2em;
+}
+ h3 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+p {
+    line-height: 2em;
+    font-size: 400%;
+}
+
