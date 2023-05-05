@@ -1,44 +1,10 @@
-body {
-    background-color: #D0D41F ;
-    
+*{
+    margin: 0;
+    padding: 0;
 }
-/*ID SELECTOR*/
-#git_header {
-    color: #1F9FD4;
+.main{
+    width: 100%
+    background-size: cover;
+    background-position: centre;
+    height: 110vh;
 }
-/*CLASS SELECTOR*/
-.first_text {
-    color:royalblue;
-}
-header h1 {
-    font-size:1200%;
-    text-align: center;
-}
-
-header h2 {
-    font-size: 900%;
-}
-header h3 {
-    font-size: 900%;
-    font: italic 400 4em times roman;
-    font-weight: bolder;
-    color: darkgreen;
-}
-ul {
-    color: #B41FD4;
-    font-size: 400%;
-    line-height: 2em;
-    }
-ol {
-    color: #FE0505;
-    font-size: 400%;
-    line-height: 2em;
-}
- h3 {
-    font-family: Arial, Helvetica, sans-serif;
-}
-p {
-    line-height: 2em;
-    font-size: 400%;
-}
-
