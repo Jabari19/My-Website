@@ -20,6 +20,7 @@
     padding-right: 200px;
     float: right;
     padding-top: 10px;
+    align-content: center;
 }
 .menu{
     width: 400;
@@ -82,9 +83,7 @@ outline: none;
 body{
     background-color: #ff7200;
 }
-img-big5{
-    width: 300px;
-    height: 200px;
-    background-image: url( big5/sunset.jpg);
-    background-size: 100%;
+#blue{
+    background-color: rgb(147, 145, 146);
+    height: 150px;
 }
