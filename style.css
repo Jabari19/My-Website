@@ -2,6 +2,10 @@
     margin: auto;
     scroll-padding-top: 0%;
 }
+footer{
+    font-size: 120;
+    color: black;
+}
 
 body {
     color: orangered;
@@ -10,6 +14,7 @@ body {
 #git_header {
     color: rgb(166, 19, 19);
 }
+
 h1 {
     font-size: 100px;
 }
@@ -19,11 +24,12 @@ h2 {
     font-size: 80px;
     color: orangered;
     line-height: 3em;
-   }
-   h3{
+}
+
+h3 {
     font-size: 70px;
     line-height: 3em;
-   }
+}
 
 .first_text {
     color: #141212;
@@ -52,7 +58,7 @@ p {
     font-family: 'Times New Roman';
     padding-left: 5vw;
     float: left;
-    padding-top: 100px;
+    padding-top: 70px;
     -webkit-text-stroke: 2px black;
     -webkit-font-smoothing: antialiased;
 }
@@ -108,10 +114,19 @@ ul li a:hover {
     border-right: none;
     font-size: 30px;
     float: left;
-    padding: 15px;
+    padding: 20px;
     border-bottom-left-radius: 5px;
     border-top-left-radius: 5px;
+}
 
+.btn {
+    width: 50px;
+    height: 40px;
+    background: white;
+    border: 2px solid #ffffff;
+    color: white font-size:20;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
 }
 
 .btn:focus {
