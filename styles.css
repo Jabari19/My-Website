@@ -1,0 +1,64 @@
+* {
+	margin: 2px;
+	padding: 2px;
+}
+
+header {
+	padding: 1.5em 0 2em 0;
+	border-bottom: 3px solid #931420;
+	background-image: -moz-linear-gradient(30deg, #f6bb73 0%, #f6bb73 30%, white 50%, #f6bb73 80%, #f6bb73 100%);
+	background-image: -webkit-linear-gradient(30deg, #f6bb73 0%, #f6bb73 30%, white 50%, #f6bb73 80%, #f6bb73 100%);
+
+	background-image: linear-gradient(30deg, #f6bb73 0%, #f6bb73 30%, white 50%, #f6bb73 80%, #f6bb73 100%);
+
+	h1 {
+		font-size: 100px;
+		font-style: normal;
+		padding: 1em;
+	}
+
+	img {
+		float: left;
+		margin-right: 1em;
+	}
+
+	br {
+		clear: left;
+	}
+
+	#sales {
+		float: left;
+		width: 450px;
+
+	}
+
+	#Book {
+		float: right;
+		width: 450px;
+
+	}
+
+	footer {
+		clear: both;
+	}
+	.dropdown-content a{
+		color: solid blue;
+		padding:12px 14px;
+		text-decoration: none;
+		display: block;
+	}
+.dropdown{
+	position: relative;
+	display:-webkit-inline-box;
+	}
+
+	.dropdown:hover,dropbtn:focus{
+     background-color:blue;
+}
+.dropbtn{	
+background-color:#3498DB;
+color:white;
+padding:16px;
+border: solid black;
+cursor: pointer;
+}
