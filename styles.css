@@ -62,3 +62,8 @@ padding:16px;
 border: solid black;
 cursor: pointer;
 }
+#p{
+	font-size: 100;
+	line-height: 2em;
+	
+}
