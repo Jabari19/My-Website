@@ -5,11 +5,11 @@
 
 header {
 	padding: 1.5em 0 2em 0;
-	border-bottom: 3px solid #931420;
-	background-image: -moz-linear-gradient(30deg, #f6bb73 0%, #f6bb73 30%, white 50%, #f6bb73 80%, #f6bb73 100%);
-	background-image: -webkit-linear-gradient(30deg, #f6bb73 0%, #f6bb73 30%, white 50%, #f6bb73 80%, #f6bb73 100%);
+	border-bottom: 8px solid orange;
+	background-image: -moz-linear-gradient(30deg, hsl(33, 87%, 50%) 0%, #f6bb73 30%, white 50%, #f6bb73 80%, #f6bb73 100%);
+	background-image: -webkit-linear-gradient(30deg, hsl(33, 13%, 32%) 0%, #f6bb73 30%, white 50%, #f6bb73 80%, #f6bb73 100%);
 
-	background-image: linear-gradient(30deg, #f6bb73 0%, #f6bb73 30%, white 50%, #f6bb73 80%, #f6bb73 100%);
+	background-image: linear-gradient(30deg, #73a7f6 0%, #f6bb73 30%, white 50%, #f6bb73 80%, #f6bb73 100%);
 
 	h1 {
 		font-size: 100px;
@@ -26,13 +26,13 @@ header {
 		clear: left;
 	}
 
-	#Sales {
+	#Discover Our Sales {
 		float: left;
 		width: 450px;
 
 	}
 
-	#Book {
+	#Booking {
 		float: right;
 		width: 450px;
 
@@ -40,30 +40,35 @@ header {
 
 	footer {
 		clear: both;
+		border-top:2px solid #73a7f6
 	}
-	.dropdown-content a{
-		color: solid blue;
-		padding:12px 14px;
+
+	.dropdown-content a {
+		color: solid black;
+		padding: 12px 14px;
 		text-decoration: none;
 		display: block;
 	}
-.dropdown{
-	position: relative;
-	display:-webkit-inline-box;
+
+	.dropdown {
+		position: relative;
+		display: -webkit-inline-box;
 	}
 
-	.dropdown:hover,dropbtn:focus{
-     background-color:blue;
-}
-.dropbtn{	
-background-color:#3498DB;
-color:white;
-padding:16px;
-border: solid black;
-cursor: pointer;
-}
-#p{
-	font-size: 100;
-	line-height: 2em;
-	
-}
+	.dropdown:hover.dropbtn:focus {
+		background-color: blue;
+	}
+
+	.dropbtn {
+		background-color: #3498DB;
+		color: white;
+		padding: 16px;
+		border: solid black;
+		cursor: pointer;
+	}
+
+	#p {
+		font-size: 100;
+		line-height: 2em;
+
+	}
