@@ -3,6 +3,12 @@
 	padding: 2px;
 }
 
+/*.wrapper{
+	width: 100%;
+	max-width: 960;
+	margin: 0 auto;
+}*/
+
 header {
 	padding: 1.5em 0 2em 0;
 	border-bottom: 8px solid orange;
@@ -10,7 +16,7 @@ header {
 	background-image: -webkit-linear-gradient(30deg, hsl(33, 13%, 32%) 0%, #f6bb73 30%, white 50%, #f6bb73 80%, #f6bb73 100%);
 
 	background-image: linear-gradient(30deg, #73a7f6 0%, #f6bb73 30%, white 50%, #f6bb73 80%, #f6bb73 100%);
-
+}
 	h1 {
 		font-size: 100px;
 		font-style: normal;
@@ -26,16 +32,20 @@ header {
 		clear: left;
 	}
 
-	#Discover Our Sales {
+	#Discover  {
 		float: left;
 		width: 450px;
 
 	}
 
 	#Booking {
-		float: right;
+		float: left;
 		width: 450px;
 
+	}
+	#Destinations{
+		float:right;
+		width: 450;
 	}
 
 	footer {
@@ -47,7 +57,7 @@ header {
 		color: solid black;
 		padding: 12px 14px;
 		text-decoration: none;
-		display: block;
+		display: block;float:left; 
 	}
 
 	.dropdown {
