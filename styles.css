@@ -47,7 +47,7 @@ body {
 }
 /*********Page Title********************/
 .head-text h1{
-	text-align: left;
+	text-align: center;
 	color: #dfd8d2;
 	text-transform: uppercase;
 	font-size: 50px;
@@ -57,14 +57,14 @@ body {
 	position: absolutea;
 	padding-left: -15%;
 	padding-top: 10%;
-	text-align: left;
+	text-align: center;
 	font-size: 30px;
 }
 /************Headings*************************/
 .head2-text{
 	position: absolute;
 	margin: 20% 33%;
-	text-align: center;
+	text-align: justify;
 	font-size: 40px;
 	color: #0b0b0b;
 	line-height: 2em;
