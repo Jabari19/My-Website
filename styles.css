@@ -8,6 +8,13 @@
 	width: 1000px;
 	margin: auto;
 }
+
+/*********id selectore**********/
+#git_header {
+	color: #f1b204;
+	font-size: 80px;
+}
+
 /*******Body**********************/
 
 body {
@@ -16,93 +23,139 @@ body {
 	position: relative;
 
 }
+
 /**********Navigation Menu***************/
-.nav-menu{
+.nav-menu {
 	float: right;
 	list-style: none;
 	margin-top: 30px;
 	padding-right: 20px;
+	background: rgb(255, 0, 25);
 }
-.nav-menu li{
+
+.nav-menu li {
 	display: inline-block;
 
 }
-.nav-menu li a{
+
+.nav-menu li a {
 	color: #fff;
 	text-decoration: none;
-	padding:5px 20px;
+	padding: 5px 20px;
 	font-size: 20px;
-	}
-.nav-menu li a:hover{
+}
+
+.nav-menu li a:hover {
 	background: rgb(245, 245, 245);
 	color: red;
 }
-/***********Logo**********************/
-.logo img{
+
+/***********sub-menu-1**************/
+.sub-menu-1 {
+	display: none;
+}
+
+.nav-menu li a:hover .sub-menu-1 {
+	display: block;
+	position: absolute;
+	background: #e4e9e4;
+	margin-top: 15px;
+	margin-left: -15px;
+}
+
+.nav-menu li a:hover .sub-menu-1 ul {
+	display: block;
+	margin: 10px;
+}
+
+.nav-menu li a:hover .sub-menu-1 ul li {
 	width: 150px;
+	padding: 10px;
+	border-bottom: 1px dotted #fff;
+	background: transparent;
+	border-radius: 0;
+	text-align: left;
+}
+
+/***********Logo**********************/
+.logo img {
+	width: 200px;
+	height: 0%;
 	float: left;
 	padding-left: 0px;
-	padding-top: 5%;
+	padding-top: 10%;
 	filter: invert(1);
 }
+
 /*********Page Title********************/
-.head-text h1{
+.head-text h1 {
 	text-align: center;
 	color: #dfd8d2;
 	text-transform: uppercase;
-	font-size: 50px;
 	font-style: normal;
+	background: white;
+
+
 }
-.head-text{
+
+.head-text {
 	position: absolutea;
 	padding-left: -15%;
 	padding-top: 10%;
 	text-align: center;
 	font-size: 30px;
 }
+
 /************Headings*************************/
-.head2-text{
+.head2-text {
 	position: absolute;
-	margin: 20% 33%;
+	margin: 5% 33%;
 	text-align: justify;
 	font-size: 40px;
 	color: #0b0b0b;
 	line-height: 2em;
 }
+
 /**********container********************/
-.container{
-	width: 1200;
-	margin: 0 auto;
+.container {
+	width: 1600;
+	margin: auto;
 	padding: 10px;
 	background-color: rgba(255, 166, 0, 0.115);
-	border: 3px solid#000000;
+	border: 10px solid#ded6e6;
+	display: inline-block;
 
 }
-.firstDiv{
+
+.firstDiv {
 	background-color: #f1b204;
-	padding: 5px;	
+	padding: 5px;
 	width: 600px;
-	border-radius: 10px;
-	
-	margin: 75% 30%;
-	}
-.firstDiv >h3{
+}
+
+.firstDiv>h3 {
 	text-align: center;
 }
-.firstDiv > p{
+
+.firstDiv>p {
 	text-align: center;
 }
-.secondDiv{
+
+.secondDiv {
 	background-color: yellow;
-	padding: 5px;	
+	padding: 5px;
 	width: 600px;
-	border-radius: 10px;
-	
-	
 }
-.secondDiv >h3{
+
+.secondDiv>h3 {
 	text-align: center;
 }
-.secondDiv > p{
+
+.secondDiv>p {
 	text-align: center;
+}
+
+/**************text and img alignment***************/
+img {
+	float: left;
 }
