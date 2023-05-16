@@ -1,74 +1,74 @@
 * {
-	margin: 0;
-	padding: 0;
-	font-family: 'Courier New', Courier, monospace;
+	margin:2px;
+	padding:0;
+	box-sizing: border-box;
 }
-
-.wrapper {
-	width: 1000px;
-	margin: auto;
+body{
+	background-color: rgb(220, 240, 245);
+	
+	font-family: 'Times New Roman', Times, serif;
 }
-
-/*********id selectore**********/
-#git_header {
-	color: #f1b204;
-	font-size: 80px;
+/****************Page Title**********/
+.header1{
+	text-align: left;
+	color: white;
+	font-size: 30px;
+	
 }
-
-/*******Body**********************/
-
-body {
-	background: url(big5/b.jpg);
-	background-size: cover;
-	position: relative;
+/******header2***************/
+.header2{
+	text-align: center;
+	line-height: 4em;
+	color: red;
+	font-style: italic;
+	font-size: 30px;
+}
+.pages{
+	text-align:center;
+	color: black;
+	line-height: 2em;
 
 }
-
-/**********Navigation Menu***************/
-.nav-menu {
-	float: right;
+/****Dropdowns menus*********/
+.menu-bar{
+	background: green;
+	text-align: center;
+}
+.menu-bar ul{
+	display: inline-flex;
 	list-style: none;
-	margin-top: 30px;
-	padding-right: 20px;
-	background: rgb(255, 0, 25);
+	color: white;
 }
-
-.nav-menu li {
-	display: inline-block;
-
+.menu-bar ul li {
+width: 120px;
+margin: 15px;
+padding: 15px;
 }
-
-.nav-menu li a {
-	color: #fff;
+.menu-bar ul li a{
 	text-decoration: none;
-	padding: 5px 20px;
-	font-size: 20px;
-}
-
-.nav-menu li a:hover {
-	background: rgb(245, 245, 245);
 	color: red;
 }
-
-/***********sub-menu-1**************/
-.sub-menu-1 {
-	display: none;
+.active,.menu-bar ul li:hover{
+	background: rgb(240, 244, 240);
+	border-radius: 3px;
 }
 
-.nav-menu li a:hover .sub-menu-1 {
+/******Submenu****************/
+.sub-menu-1{
+	display: none;
+}
+.menu-bar ul li:hover .sub-menu-1{
 	display: block;
-	position: absolute;
-	background: #e4e9e4;
+	position:absolute;
+	background: rgb(0,100,0)
 	margin-top: 15px;
 	margin-left: -15px;
 }
-
-.nav-menu li a:hover .sub-menu-1 ul {
+.menu-bar ul li:hover .sub-menu-1 ul{
 	display: block;
 	margin: 10px;
 }
-
-.nav-menu li a:hover .sub-menu-1 ul li {
+.menu-bar ul li:hover .sub-menu-1 ul li{
 	width: 150px;
 	padding: 10px;
 	border-bottom: 1px dotted #fff;
@@ -76,86 +76,13 @@ body {
 	border-radius: 0;
 	text-align: left;
 }
-
-/***********Logo**********************/
-.logo img {
-	width: 200px;
-	height: 0%;
-	float: left;
-	padding-left: 0px;
-	padding-top: 10%;
-	filter: invert(1);
-}
-
-/*********Page Title********************/
-.head-text h1 {
-	text-align: center;
-	color: #dfd8d2;
-	text-transform: uppercase;
-	font-style: normal;
-	background: white;
-
+.menu-bar ul li:hover .sub-menu-1 ul li:last-child{
+	border-bottom: none;
 
 }
 
-.head-text {
-	position: absolutea;
-	padding-left: -15%;
-	padding-top: 10%;
-	text-align: center;
-	font-size: 30px;
-}
-
-/************Headings*************************/
-.head2-text {
-	position: absolute;
-	margin: 5% 33%;
-	text-align: justify;
+.footer{
 	font-size: 40px;
-	color: #0b0b0b;
-	line-height: 2em;
-}
-
-/**********container********************/
-.container {
-	width: 1600;
-	margin: auto;
-	padding: 10px;
-	background-color: rgba(255, 166, 0, 0.115);
-	border: 10px solid#ded6e6;
-	display: inline-block;
-
-}
-
-.firstDiv {
-	background-color: #f1b204;
-	padding: 5px;
-	width: 600px;
-}
-
-.firstDiv>h3 {
 	text-align: center;
-}
-
-.firstDiv>p {
-	text-align: center;
-}
-
-.secondDiv {
-	background-color: yellow;
-	padding: 5px;
-	width: 600px;
-}
-
-.secondDiv>h3 {
-	text-align: center;
-}
-
-.secondDiv>p {
-	text-align: center;
-}
-
-/**************text and img alignment***************/
-img {
-	float: left;
+	font-style: italic;
 }
