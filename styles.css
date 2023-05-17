@@ -17,7 +17,7 @@ body{
 }
 
 
-/*MEDIA QUERY */
+/*MEDIA QUERY Mobile and Tablet */
 .box_1{
 	background-color: grey;
 	color: black;
@@ -34,9 +34,7 @@ body{
 	.container{
 		display:flex;
 	}
-	.box_1{
-		background-color: red;
-	}
+	
 }
 	
 
