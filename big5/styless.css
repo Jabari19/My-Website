@@ -1,0 +1,78 @@
+* {
+    margin: 2px;
+    padding: 0px;
+}
+body{
+   background-image: url(images/sunset.jpg);
+    background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));
+}
+/*******************colums*************/
+.wrapper{
+    padding: 5px;
+    max-width: 960px;
+    width: 95%;
+    display: flex;
+    margin: 20px auto;
+    }
+
+.container div{
+    
+    flex-flow: row wrap;
+    justify-content: center;
+    color: white;
+   
+   }
+   header{
+    padding: 0.15px;
+    text-align: center;
+    font-size: 21px;
+    
+   }
+   .columns{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin: 5px 0;
+   }
+   .column{
+    flex: 1;
+    border: 1px solid#666;
+    padding: 10px;
+    background-color: #3fa4d5;
+    transition: 0.3s;
+
+}
+.column :first-child{
+   margin-left: 0;
+}
+@media screen and (max-width: 980px){
+    .colummns.column{
+        margin-bottom: 5px;
+        flex-basis: 40px;
+    }
+    .colummns.column: :last-child{
+        flex-basis: 100%;
+        margin: 0;
+    }
+}
+
+    
+}
+   .box{
+     flex: 1;
+     margin: 2px;
+     height: 250px;
+     padding: 10px;
+     transition: 0.5s;
+   
+     background-color: orange ;
+     border: 1px solid red;
+    
+     font-family: verdana;
+   }
+
+   .footer {
+    background-image: linear-gradient(180deg, red, yellow);
+    text-align: center;
+    
+  }
